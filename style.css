@@ -1,0 +1,37 @@
+body{
+    background: #F6F6F6; /* Couleur de fond du corps */
+    padding-top: 25px; /* Margin intérieur haute*/
+    margin-top: 50px; /* marge exterieurs haute */
+    margin-bottom: 50px; /* marge exterieurs basse */
+    margin-left: 200px; /* marge exterieurs gauche*/
+    margin-right: 200px; /* marge exterieurs droite*/
+    box-shadow: 0px 0px 6px black;
+}
+.block-gauche{
+    background-color:#312C55;
+    border: 2px solid black; /* Bordures ligne continue */
+    border-radius: 10px 0px 0px 10px; /* courbe bordure dans l'ordre : g-h,d-h,d-b,g-b (g = gauche, d = droite, h = haut, b = bas);*/
+    color: white; /* couleur du texte */
+}
+.block-droite{
+    border: 2px solid white;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+}
+footer{
+    background: white;
+}
+
+.btn{
+    border: 1px solid white;
+    background-color: #312C55;
+    color: white;
+}
+.first{
+    margin: 75px; /* marges exterieurs 150px */
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px black; /* ombre des blocks */
+}
+.second{
+    box-shadow: 0px 0px 3px black;
+}
